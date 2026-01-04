@@ -76,7 +76,13 @@ print(sumarNum(1,2,5,7,53,6,8,6,3,1))
 
 
 # Argumnentos de clave-valor variable (**kwargs)
+#Aqui podemos agregar cualquier valor 
+def mostrar_informacion_de(**kwargs):
+    for clave, valor in kwargs.items():
+        print(f"{clave}: {valor}")
+    
+mostrar_informacion_de(nombre="Rafael", edad= 23, sexo="gato")
+mostrar_informacion_de(nombre="Midu", edad = 21, sexo= "Indefinido", pais="Mexico", es_sub= True, isRich = True)
 
-def mostrar_informacion_de(**kwargs)
-
+mostrar_informacion_de(name="Rafael", superAge= 23, sexo="gato") 
 
