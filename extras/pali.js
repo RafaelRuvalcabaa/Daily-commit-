@@ -9,3 +9,4 @@ function palindromo(word) {
 
 console.log(palindromo("oso")); // true
 console.log(palindromo("ojhhjhhso")); // false
+console.log(palindromo("jfzdfjhlsjhldflhjsdhjfsdhjldhjdfldsfhjklagsuihiuguliehughsghuhusrguidrhuiguidrhgudhgudrhgiudrhugidgurhgr"))
