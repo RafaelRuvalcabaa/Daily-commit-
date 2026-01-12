@@ -168,3 +168,12 @@ else:
 
 
 
+### |: Coincidir con una opcion o otra
+
+fruits = "platano, manzana, aguacate, pera, palta"
+
+pattern = r"manzana|p..a|\b\w{7}\b"
+
+found = re.findall(pattern, fruits)
+
+print(found)
