@@ -23,3 +23,8 @@ def call_openai_gpt( prompt):
     print(response.json())
 
 call_openai_gpt(OPENAI_API_KEY, "Hola, ¿Como ves mi codigo?")
+
+
+
+# Llamar API de DEEPSEEK
+
